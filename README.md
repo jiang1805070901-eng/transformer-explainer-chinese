@@ -1,28 +1,31 @@
-# Transformer Explainer: Interactive Learning of Text-Generative Models
+# Transformer Explainer: 交互式学习文本生成模型
 
-Transformer Explainer is an interactive visualization tool designed to help anyone learn how Transformer-based models like GPT work. It runs a live GPT-2 model right in your browser, allowing you to experiment with your own text and observe in real time how internal components and operations of the Transformer work together to predict the next tokens. Try Transformer Explainer at http://poloclub.github.io/transformer-explainer and watch a demo video on YouTube https://youtu.be/TFUc41G2ikY.<br/><br/>
+> **English Version**: 原版英文文档请访问 [http://poloclub.github.io/transformer-explainer](http://poloclub.github.io/transformer-explainer)
+
+Transformer Explainer 是一个交互式可视化工具,旨在帮助任何人学习基于 Transformer 的模型(如 GPT)的工作原理。它直接在浏览器中运行实时 GPT-2 模型,允许你使用自己的文本进行实验,并实时观察 Transformer 的内部组件和操作如何协同工作来预测下一个 token。在线体验 Transformer Explainer: http://poloclub.github.io/transformer-explainer,观看 YouTube 演示视频: https://youtu.be/TFUc41G2ikY。<br/><br/>
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 [![arxiv badge](https://img.shields.io/badge/arXiv-2408.04619-red)](https://arxiv.org/abs/2408.04619)
 
 <a href="https://youtu.be/TFUc41G2ikY" target="_blank"><img width="100%" src='https://github.com/user-attachments/assets/0a4d8888-6555-4df5-bc71-77f1299115c3'></a>
 
-## Live Demo
-Try Transformer Explainer: http://poloclub.github.io/transformer-explainer
+## 在线演示
 
-## Research Paper
+体验 Transformer Explainer: http://poloclub.github.io/transformer-explainer
+
+## 研究论文
 
 [**Transformer Explainer: Interactive Learning of Text-Generative Models**](https://arxiv.org/abs/2408.04619).
 Aeree Cho, Grace C. Kim, Alexander Karpekov, Alec Helbling, Zijie J. Wang, Seongmin Lee, Benjamin Hoover, Duen Horng Chau.
 _Poster, IEEE VIS 2024._
 
-## How to run locally
+## 本地运行
 
-#### Prerequisites
+#### 前置要求
 
-- Node.js v20 or higher
-- NPM v10 or higher
+- Node.js v20 或更高版本
+- NPM v10 或更高版本
 
-#### Steps
+#### 步骤
 
 ```bash
 git clone https://github.com/poloclub/transformer-explainer.git
@@ -31,13 +34,13 @@ npm install
 npm run dev
 ```
 
-Then, on your web browser, access http://localhost:5173.
+然后在浏览器中访问 http://localhost:5173。
 
-## Credits
+## 致谢
 
-Transformer Explainer was created by <a href="https://aereeeee.github.io/" target="_blank">Aeree Cho</a>, <a href="https://www.linkedin.com/in/chaeyeonggracekim/" target="_blank">Grace C. Kim</a>, <a href="https://alexkarpekov.com/" target="_blank">Alexander Karpekov</a>, <a href="https://alechelbling.com/" target="_blank">Alec Helbling</a>, <a href="https://zijie.wang/" target="_blank">Jay Wang</a>, <a href="https://seongmin.xyz/" target="_blank">Seongmin Lee</a>, <a href="https://bhoov.com/" target="_blank">Benjamin Hoover</a>, and <a href="https://poloclub.github.io/polochau/" target="_blank">Polo Chau</a> at the Georgia Institute of Technology.
+Transformer Explainer 由佐治亚理工学院的 <a href="https://aereeeee.github.io/" target="_blank">Aeree Cho</a>、<a href="https://www.linkedin.com/in/chaeyeonggracekim/" target="_blank">Grace C. Kim</a>、<a href="https://alexkarpekov.com/" target="_blank">Alexander Karpekov</a>、<a href="https://alechelbling.com/" target="_blank">Alec Helbling</a>、<a href="https://zijie.wang/" target="_blank">Jay Wang</a>、<a href="https://seongmin.xyz/" target="_blank">Seongmin Lee</a>、<a href="https://bhoov.com/" target="_blank">Benjamin Hoover</a> 和 <a href="https://poloclub.github.io/polochau/" target="_blank">Polo Chau</a> 创建。
 
-## Citation
+## 引用
 
 ```bibTeX
 @article{cho2024transformer,
@@ -49,16 +52,16 @@ Transformer Explainer was created by <a href="https://aereeeee.github.io/" targe
 }
 ```
 
-## License
+## 许可证
 
-The software is available under the [MIT License](https://github.com/poloclub/transformer-explainer/blob/main/LICENSE).
+本软件基于 [MIT 许可证](https://github.com/poloclub/transformer-explainer/blob/main/LICENSE)。
 
-## Contact
+## 联系方式
 
-If you have any questions, feel free to [open an issue](https://github.com/poloclub/transformer-explainer/issues/new/choose) or contact [Aeree Cho](https://aereeeee.github.io/) or any of the contributors listed above.
+如有任何问题,欢迎[提交 issue](https://github.com/poloclub/transformer-explainer/issues/new/choose) 或联系 [Aeree Cho](https://aereeeee.github.io/) 或上述任何贡献者。
 
-## More AI explainers to check out
+## 更多 AI 可视化工具
 
-- [**Diffusion Explainer**](https://poloclub.github.io/diffusion-explainer) for learning how Stable Diffusion transforms text prompt into image
-- [**CNN Explainer**](https://poloclub.github.io/cnn-explainer)
-- [**GAN Lab**](https://poloclub.github.io/ganlab) for playing with Generative Adversarial Networks in browser
+- [**Diffusion Explainer**](https://poloclub.github.io/diffusion-explainer) - 学习 Stable Diffusion 如何将文本提示转换为图像
+- [**CNN Explainer**](https://poloclub.github.io/cnn-explainer) - 卷积神经网络可视化
+- [**GAN Lab**](https://poloclub.github.io/ganlab) - 在浏览器中体验生成对抗网络
