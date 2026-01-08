@@ -1,0 +1,7 @@
+{
+  "name": "transformer-explainer-chinese",
+  "compatibility_date": "2026-01-08",
+  "assets": {
+    "directory": "./build"
+  }
+}
