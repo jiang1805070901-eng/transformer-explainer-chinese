@@ -1,40 +1,28 @@
-# Transformer Explainer: 交互式学习文本生成模型
+# Transformer Explainer: 交互式学习文本生成模型（中文版本）
 
-> **English Version**: 原版英文文档请访问 [http://poloclub.github.io/transformer-explainer](http://poloclub.github.io/transformer-explainer)
+> **English Version**: 原版英文演示请访问 [http://poloclub.github.io/transformer-explainer](http://poloclub.github.io/transformer-explainer)
+
+在线演示（中文）网址：https://transformer-explainer-chinese.jiang1805070901.workers.dev/
+
+本次修改并部署中文版Transformer Explainer项目初衷为中文学习者提供更好的阅读体验，可以把重心放在Transformer本身，而不用担心语言问题。且在翻译过程中保证原汁原味，符合原著本身的含义。在此也感谢原作者团队开源了如此棒的项目，让大家清晰的看到大模型的运行流程。🙇
+
+
 
 Transformer Explainer 是一个交互式可视化工具,旨在帮助任何人学习基于 Transformer 的模型(如 GPT)的工作原理。它直接在浏览器中运行实时 GPT-2 模型,允许你使用自己的文本进行实验,并实时观察 Transformer 的内部组件和操作如何协同工作来预测下一个 token。在线体验 Transformer Explainer: http://poloclub.github.io/transformer-explainer,观看 YouTube 演示视频: https://youtu.be/TFUc41G2ikY。<br/><br/>
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 [![arxiv badge](https://img.shields.io/badge/arXiv-2408.04619-red)](https://arxiv.org/abs/2408.04619)
 
-<a href="https://youtu.be/TFUc41G2ikY" target="_blank"><img width="100%" src='https://github.com/user-attachments/assets/0a4d8888-6555-4df5-bc71-77f1299115c3'></a>
+## 在线体验
 
-## 在线演示
+体验 Transformer Explainer英文原版: http://poloclub.github.io/transformer-explainer
 
-体验 Transformer Explainer: http://poloclub.github.io/transformer-explainer
+中文地址：https://transformer-explainer-chinese.jiang1805070901.workers.dev/
 
 ## 研究论文
 
 [**Transformer Explainer: Interactive Learning of Text-Generative Models**](https://arxiv.org/abs/2408.04619).
 Aeree Cho, Grace C. Kim, Alexander Karpekov, Alec Helbling, Zijie J. Wang, Seongmin Lee, Benjamin Hoover, Duen Horng Chau.
 _Poster, IEEE VIS 2024._
-
-## 本地运行
-
-#### 前置要求
-
-- Node.js v20 或更高版本
-- NPM v10 或更高版本
-
-#### 步骤
-
-```bash
-git clone https://github.com/poloclub/transformer-explainer.git
-cd transformer-explainer
-npm install
-npm run dev
-```
-
-然后在浏览器中访问 http://localhost:5173。
 
 ## 致谢
 
