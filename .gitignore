@@ -1,5 +1,4 @@
 # Model files
-static/model-v2/
 node_modules
 
 # SvelteKit build output
